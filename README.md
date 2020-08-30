@@ -28,3 +28,11 @@ curl "https://cache-as-a-service-dot-demoneil.df.r.appspot.com?key=name1"
 ## Errors
 
 * Cache Miss - `404 Not Found`
+
+## TODO
+- [x] Error code for cache miss
+- [ ] Stict JSON validation for set cache
+- [ ] Multi Set
+- [ ] Multi Get 
+- [ ] Explicit TTL 
+
