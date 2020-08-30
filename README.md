@@ -7,7 +7,9 @@
 
 ``` gcloud app deploy```
 
-### Set Cache
+## APIs
+
+### Set Cache (201 Created)
 
 ```
 curl --header "Content-Type: application/json" \
@@ -17,8 +19,12 @@ curl --header "Content-Type: application/json" \
   
 ```
 
-### Get Cache 
+### Get Cache (200 OK)
 
 ```
 curl "https://cache-as-a-service-dot-demoneil.df.r.appspot.com?key=name1"
 ```
+
+## Errors
+
+* Cache Miss - `404 Not Found`
