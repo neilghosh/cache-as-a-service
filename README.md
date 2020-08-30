@@ -1,5 +1,12 @@
 # cache-as-a-service
 
+## Setup 
+``` gcloud components install app-engine-go ```
+
+## Deploy 
+
+``` gcloud app deploy```
+
 ### Set Cache
 
 ```
